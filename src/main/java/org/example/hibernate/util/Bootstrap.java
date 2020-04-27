@@ -11,7 +11,7 @@ import java.util.GregorianCalendar;
 
 public class Bootstrap {
 
-    public static void LoadData() {
+    public static void loadData() {
 
         Department department = new Department();
         department.setDeptId(1);

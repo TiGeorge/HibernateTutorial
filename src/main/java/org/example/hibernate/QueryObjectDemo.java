@@ -14,7 +14,7 @@ public class QueryObjectDemo {
 
     public static void main(String[] args) {
 
-        Bootstrap.LoadData();
+        Bootstrap.loadData();
 
         SessionFactory factory = HibernateUtil.getSessionFactory();
 

@@ -7,13 +7,12 @@ import org.example.hibernate.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
-import org.w3c.dom.ls.LSOutput;
 
 public class ShortEmpInfoQueryDemo {
 
     public static void main(String[] args) {
 
-        Bootstrap.LoadData();
+        Bootstrap.loadData();
 
         SessionFactory factory = HibernateUtil.getSessionFactory();
         Session session = factory.getCurrentSession();

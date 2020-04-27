@@ -1,6 +1,5 @@
 package org.example.hibernate;
 
-import net.bytebuddy.build.Plugin;
 import org.example.hibernate.entities.Employee;
 import org.example.hibernate.util.Bootstrap;
 import org.example.hibernate.util.HibernateUtil;
@@ -15,7 +14,7 @@ public class QueryObjectDemo2 {
 
     public static void main(String[] args) {
 
-        Bootstrap.LoadData();
+        Bootstrap.loadData();
 
         SessionFactory factory = HibernateUtil.getSessionFactory();
         Session session = factory.getCurrentSession();

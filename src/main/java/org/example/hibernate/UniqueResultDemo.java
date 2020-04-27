@@ -32,7 +32,7 @@ public class UniqueResultDemo {
 
     public static void main(String[] args) {
 
-        Bootstrap.LoadData();
+        Bootstrap.loadData();
 
         SessionFactory factory = HibernateUtil.getSessionFactory();
         Session session = factory.getCurrentSession();
